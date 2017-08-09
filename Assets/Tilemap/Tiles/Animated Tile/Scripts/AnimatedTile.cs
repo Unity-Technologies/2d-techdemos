@@ -83,7 +83,7 @@ namespace UnityEngine.Tilemaps
 			}
 			
 			float minSpeed = EditorGUILayout.FloatField("Minimum Speed", tile.m_MinSpeed);
-			float maxSpeed = EditorGUILayout.FloatField("Minimum Speed", tile.m_MaxSpeed);
+			float maxSpeed = EditorGUILayout.FloatField("Maximum Speed", tile.m_MaxSpeed);
 			if (minSpeed < 0)
 				minSpeed = 0.0f;
 			if (maxSpeed < 0)
