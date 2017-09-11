@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aac124e7650a1a49b08128d6b2395e0, type: 3}
+  m_Name: Destructible
+  m_EditorClassIdentifier: 
+  m_Undestructible: {fileID: 0}
+  m_DefaultSprite: {fileID: 21300010, guid: 0f47cf487825a174cb2d36b2fa20f10f, type: 3}

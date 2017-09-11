@@ -1,19 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 
-public static class PreviewUtil 
+public static class PreviewUtil
 {
 	public static Texture2D RenderStaticPreview(Sprite sprite, int width, int height)
 	{
 		System.Type t = GetType("UnityEditor.SpriteUtility");
 		if (t != null)
 		{
-			MethodInfo method = t.GetMethod("RenderStaticPreview", new System.Type[] { typeof(Sprite), typeof(Color), typeof(int), typeof(int) });
+			MethodInfo method = t.GetMethod("RenderStaticPreview",
+				new System.Type[] {typeof (Sprite), typeof (Color), typeof (int), typeof (int)});
 			if (method != null)
 			{
-				object ret = method.Invoke("RenderStaticPreview", new object[] { sprite, Color.white, width, height });
+				object ret = method.Invoke("RenderStaticPreview", new object[] {sprite, Color.white, width, height});
 				if (ret is Texture2D)
 					return ret as Texture2D;
 			}
@@ -52,5 +51,5 @@ public static class PreviewUtil
 		}
 		return null;
 	}
-
 }
+
