@@ -141,6 +141,7 @@ namespace UnityEditor
 		{
 			tile.m_DefaultSprite = EditorGUILayout.ObjectField("Default Sprite", tile.m_DefaultSprite, typeof(Sprite), false) as Sprite;
 			tile.m_DefaultColliderType = (Tile.ColliderType)EditorGUILayout.EnumPopup("Default Collider", tile.m_DefaultColliderType);
+			tile.m_NeighborType = (RuleTile.NeighborType)EditorGUILayout.EnumPopup("Check Type", tile.m_NeighborType);
 			EditorGUILayout.Space();
 
 			if (m_ReorderableList != null && tile.m_TilingRules != null)
