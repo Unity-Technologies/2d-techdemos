@@ -8,29 +8,31 @@ SpriteAtlas:
   m_Name: Ladder
   m_EditorData:
     textureSettings:
+      serializedVersion: 2
       anisoLevel: 1
       compressionQuality: 50
       maxTextureSize: 2048
       textureCompression: 0
-      colorSpace: 1
       filterMode: 0
       generateMipMaps: 0
       readable: 0
       crunchedCompression: 0
+      sRGB: 0
     platformSettings: []
     packingParameters:
-      paddingPower: 2
+      serializedVersion: 2
+      padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
     packedHash:
       serializedVersion: 2
-      Hash: 7b1cf4a1cd7d391c75a8d89ec61596d0
+      Hash: 904b82378f29a1a0b03e8211046c994a
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: 7b1cf4a1cd7d391c75a8d89ec61596d0
+    hashString: 904b82378f29a1a0b03e8211046c994a
     totalSpriteSurfaceArea: 768
     packables:
     - {fileID: 2800000, guid: c880ac2f074d0e949bbd557566f06215, type: 3}

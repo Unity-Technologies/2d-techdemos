@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 65646852267709820}
   - component: {fileID: 23458954903896996}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: ExamplePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,7 +67,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchSeams: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
