@@ -8,29 +8,31 @@ SpriteAtlas:
   m_Name: Platformer
   m_EditorData:
     textureSettings:
+      serializedVersion: 2
       anisoLevel: 1
       compressionQuality: 50
       maxTextureSize: 2048
       textureCompression: 0
-      colorSpace: 1
       filterMode: 0
       generateMipMaps: 0
       readable: 0
       crunchedCompression: 0
+      sRGB: 0
     platformSettings: []
     packingParameters:
-      paddingPower: 2
+      serializedVersion: 2
+      padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
     packedHash:
       serializedVersion: 2
-      Hash: f3ba8541314a181886a485aaadadd6d0
+      Hash: ef98f37fbd50dc5bc207ac6a282b0716
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: f3ba8541314a181886a485aaadadd6d0
+    hashString: ef98f37fbd50dc5bc207ac6a282b0716
     totalSpriteSurfaceArea: 1792
     packables:
     - {fileID: 2800000, guid: 1a29632a08213734895a58fd312fa737, type: 3}

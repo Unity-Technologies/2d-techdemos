@@ -8,29 +8,31 @@ SpriteAtlas:
   m_Name: Ocean
   m_EditorData:
     textureSettings:
+      serializedVersion: 2
       anisoLevel: 1
       compressionQuality: 50
       maxTextureSize: 2048
       textureCompression: 0
-      colorSpace: 1
       filterMode: 0
       generateMipMaps: 0
       readable: 0
       crunchedCompression: 0
+      sRGB: 0
     platformSettings: []
     packingParameters:
-      paddingPower: 2
+      serializedVersion: 2
+      padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
     packedHash:
       serializedVersion: 2
-      Hash: 029479f7d07deea107ffc668ad686982
+      Hash: 12eb6d71d2bbec12ed2cf1a75c1fc544
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: 029479f7d07deea107ffc668ad686982
+    hashString: 12eb6d71d2bbec12ed2cf1a75c1fc544
     totalSpriteSurfaceArea: 12288
     packables:
     - {fileID: 2800000, guid: 1dbca277352d7e7438b1f9ba168025cc, type: 3}

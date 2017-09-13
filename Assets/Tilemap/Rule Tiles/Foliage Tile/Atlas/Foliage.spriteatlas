@@ -8,29 +8,31 @@ SpriteAtlas:
   m_Name: Foliage
   m_EditorData:
     textureSettings:
+      serializedVersion: 2
       anisoLevel: 1
       compressionQuality: 50
       maxTextureSize: 2048
       textureCompression: 0
-      colorSpace: 1
       filterMode: 1
       generateMipMaps: 0
       readable: 0
       crunchedCompression: 0
+      sRGB: 0
     platformSettings: []
     packingParameters:
-      paddingPower: 2
+      serializedVersion: 2
+      padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
     packedHash:
       serializedVersion: 2
-      Hash: 1633298b5c7596f674d511936730f3f1
+      Hash: d6b6f64330f89297092f58cb19aa2224
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: 1633298b5c7596f674d511936730f3f1
+    hashString: d6b6f64330f89297092f58cb19aa2224
     totalSpriteSurfaceArea: 2048
     packables:
     - {fileID: 2800000, guid: 978047fa06043f24db6c15d7cd535997, type: 3}

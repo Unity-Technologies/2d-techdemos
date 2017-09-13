@@ -8,29 +8,31 @@ SpriteAtlas:
   m_Name: Pipeline
   m_EditorData:
     textureSettings:
+      serializedVersion: 2
       anisoLevel: 1
       compressionQuality: 50
       maxTextureSize: 2048
       textureCompression: 0
-      colorSpace: 1
       filterMode: 0
       generateMipMaps: 0
       readable: 0
       crunchedCompression: 0
+      sRGB: 0
     platformSettings: []
     packingParameters:
-      paddingPower: 2
+      serializedVersion: 2
+      padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
     packedHash:
       serializedVersion: 2
-      Hash: 0e34f2a243ca19c9688b17ea9a15d6d8
+      Hash: e295ab728ad21911a8ed34d2814e2025
     variantMultiplier: 1
     bindAsDefault: 1
     finalFormat: 4
-    hashString: 0e34f2a243ca19c9688b17ea9a15d6d8
+    hashString: e295ab728ad21911a8ed34d2814e2025
     totalSpriteSurfaceArea: 1536
     packables:
     - {fileID: 2800000, guid: e10f947be2bea7448b7f050392a49bfd, type: 3}

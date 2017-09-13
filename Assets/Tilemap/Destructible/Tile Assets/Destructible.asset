@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aac124e7650a1a49b08128d6b2395e0, type: 3}
+  m_Name: Destructible
+  m_EditorClassIdentifier: 
+  m_Undestructible: {fileID: 11400000, guid: 8e3635754d59b824ca8ab3d0ab07686f, type: 2}
+  m_DefaultSprite: {fileID: 21300110, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+  m_DecalGroups:
+  - m_MaskFilter: 65
+    m_Sprite: {fileID: 21300100, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    m_Decals:
+    - m_Mask: 1
+      m_DecalSprite: {fileID: 21300104, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 64
+      m_DecalSprite: {fileID: 21300102, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 65
+      m_DecalSprite: {fileID: 21300106, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+  - m_MaskFilter: 17
+    m_Sprite: {fileID: 21300112, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    m_Decals:
+    - m_Mask: 1
+      m_DecalSprite: {fileID: 21300114, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 16
+      m_DecalSprite: {fileID: 21300116, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 17
+      m_DecalSprite: {fileID: 21300118, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+  - m_MaskFilter: 65
+    m_Sprite: {fileID: 21300128, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    m_Decals:
+    - m_Mask: 1
+      m_DecalSprite: {fileID: 21300132, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 64
+      m_DecalSprite: {fileID: 21300130, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 65
+      m_DecalSprite: {fileID: 21300134, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+  - m_MaskFilter: 1
+    m_Sprite: {fileID: 21300136, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    m_Decals:
+    - m_Mask: 1
+      m_DecalSprite: {fileID: 21300138, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+  - m_MaskFilter: 1
+    m_Sprite: {fileID: 21300140, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    m_Decals:
+    - m_Mask: 1
+      m_DecalSprite: {fileID: 21300142, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+  - m_MaskFilter: 1
+    m_Sprite: {fileID: 21300148, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    m_Decals:
+    - m_Mask: 1
+      m_DecalSprite: {fileID: 21300150, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+  - m_MaskFilter: 69
+    m_Sprite: {fileID: 21300152, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    m_Decals:
+    - m_Mask: 64
+      m_DecalSprite: {fileID: 21300154, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 1
+      m_DecalSprite: {fileID: 21300156, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 4
+      m_DecalSprite: {fileID: 21300158, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 65
+      m_DecalSprite: {fileID: 21300160, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 5
+      m_DecalSprite: {fileID: 21300162, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 68
+      m_DecalSprite: {fileID: 21300164, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 69
+      m_DecalSprite: {fileID: 21300166, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+  - m_MaskFilter: 85
+    m_Sprite: {fileID: 21300168, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    m_Decals:
+    - m_Mask: 1
+      m_DecalSprite: {fileID: 21300170, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 4
+      m_DecalSprite: {fileID: 21300172, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 16
+      m_DecalSprite: {fileID: 21300174, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 64
+      m_DecalSprite: {fileID: 21300176, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 5
+      m_DecalSprite: {fileID: 21300178, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 20
+      m_DecalSprite: {fileID: 21300180, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 80
+      m_DecalSprite: {fileID: 21300182, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 65
+      m_DecalSprite: {fileID: 21300184, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 33
+      m_DecalSprite: {fileID: 21300186, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 69
+      m_DecalSprite: {fileID: 21300188, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 21
+      m_DecalSprite: {fileID: 21300190, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 84
+      m_DecalSprite: {fileID: 21300192, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 81
+      m_DecalSprite: {fileID: 21300194, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 70
+      m_DecalSprite: {fileID: 21300196, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    - m_Mask: 85
+      m_DecalSprite: {fileID: 21300198, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+  - m_MaskFilter: 1
+    m_Sprite: {fileID: 21300144, guid: 6effb0022735ead45acf361ef8832074, type: 3}
+    m_Decals:
+    - m_Mask: 1
+      m_DecalSprite: {fileID: 21300146, guid: 6effb0022735ead45acf361ef8832074, type: 3}
