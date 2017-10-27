@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: TintTile
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 0a0c194a228088c48b0e4cdf3526aa84, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ae356fcba208e9941955ea33eefccb4f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
