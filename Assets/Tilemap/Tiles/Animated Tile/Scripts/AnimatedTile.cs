@@ -17,6 +17,7 @@ namespace UnityEngine.Tilemaps
 		public float m_MinSpeed = 1f;
 		public float m_MaxSpeed = 1f;
 		public float m_AnimationStartTime;
+        public Tile.ColliderType m_TileColliderType;
 
 		public override void GetTileData(Vector3Int location, ITilemap tileMap, ref TileData tileData)
 		{
@@ -25,6 +26,7 @@ namespace UnityEngine.Tilemaps
 			if (m_AnimatedSprites != null && m_AnimatedSprites.Length > 0)
 			{
 				tileData.sprite = m_AnimatedSprites[m_AnimatedSprites.Length - 1];
+                tileData.colliderType = m_TileColliderType;
 			}
 		}
 
@@ -86,8 +88,10 @@ namespace UnityEngine.Tilemaps
 			float maxSpeed = EditorGUILayout.FloatField("Maximum Speed", tile.m_MaxSpeed);
 			if (minSpeed < 0.0f)
 				minSpeed = 0.0f;
+                
 			if (maxSpeed < 0.0f)
 				maxSpeed = 0.0f;
+                
 			if (maxSpeed < minSpeed)
 				maxSpeed = minSpeed;
 			
@@ -95,6 +99,7 @@ namespace UnityEngine.Tilemaps
 			tile.m_MaxSpeed = maxSpeed;
 
 			tile.m_AnimationStartTime = EditorGUILayout.FloatField("Start Time", tile.m_AnimationStartTime);
+            tile.m_TileColliderType=(Tile.ColliderType) EditorGUILayout.EnumPopup("Collider Type", tile.m_TileColliderType);
 			if (EditorGUI.EndChangeCheck())
 				EditorUtility.SetDirty(tile);
 		}

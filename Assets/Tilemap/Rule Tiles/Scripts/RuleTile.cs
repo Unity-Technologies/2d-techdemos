@@ -10,8 +10,6 @@ namespace UnityEngine
 	{
 		public Sprite m_DefaultSprite;
 		public Tile.ColliderType m_DefaultColliderType = Tile.ColliderType.Sprite;
-		public NeighborType m_NeighborType;
-		public enum NeighborType { Self, AnyTile }
 
 		[Serializable]
 		public class TilingRule
@@ -172,8 +170,7 @@ namespace UnityEngine
 						Vector3Int rotated = GetRotatedPos(offset, angle);
 						int index = GetIndexOfOffset(rotated);
 						TileBase tile = tilemap.GetTile(position + offset);
-
-						if (!NeighborMatchesRule(rule.m_Neighbors[index], tile))
+						if (rule.m_Neighbors[index] == TilingRule.Neighbor.This && tile != this || rule.m_Neighbors[index] == TilingRule.Neighbor.NotThis && tile == this)
 						{
 							return false;
 						}	
@@ -196,23 +193,15 @@ namespace UnityEngine
 						Vector3Int mirrored = GetMirroredPos(offset, mirrorX, mirrorY);
 						int index = GetIndexOfOffset(mirrored);
 						TileBase tile = tilemap.GetTile(position + offset);
-						
-						if(!NeighborMatchesRule(rule.m_Neighbors[index], tile))
+						if (rule.m_Neighbors[index] == TilingRule.Neighbor.This && tile != this || rule.m_Neighbors[index] == TilingRule.Neighbor.NotThis && tile == this)
 						{
 							return false;
 						}
 					}
 				}
 			}
+			
 			return true;
-		}
-
-		private bool NeighborMatchesRule(TilingRule.Neighbor neighbor, TileBase neighborTile)
-		{
-			return
-				neighbor == TilingRule.Neighbor.This && (m_NeighborType == NeighborType.Self && neighborTile == this || m_NeighborType == NeighborType.AnyTile && neighborTile != null) ||
-				neighbor == TilingRule.Neighbor.NotThis && (m_NeighborType == NeighborType.Self && neighborTile != this || m_NeighborType == NeighborType.AnyTile && neighborTile == null) ||
-				neighbor == TilingRule.Neighbor.DontCare;
 		}
 
 		private int GetIndexOfOffset(Vector3Int offset)

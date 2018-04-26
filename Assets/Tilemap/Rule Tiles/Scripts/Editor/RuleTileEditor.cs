@@ -141,7 +141,6 @@ namespace UnityEditor
 		{
 			tile.m_DefaultSprite = EditorGUILayout.ObjectField("Default Sprite", tile.m_DefaultSprite, typeof(Sprite), false) as Sprite;
 			tile.m_DefaultColliderType = (Tile.ColliderType)EditorGUILayout.EnumPopup("Default Collider", tile.m_DefaultColliderType);
-			tile.m_NeighborType = (RuleTile.NeighborType)EditorGUILayout.EnumPopup("Check Type", tile.m_NeighborType);
 			EditorGUILayout.Space();
 
 			if (m_ReorderableList != null && tile.m_TilingRules != null)
@@ -185,7 +184,10 @@ namespace UnityEditor
 						}
 						if (Event.current.type == EventType.MouseDown && r.Contains(Event.current.mousePosition))
 						{
-							tilingRule.m_Neighbors[index] = (RuleTile.TilingRule.Neighbor) (((int)tilingRule.m_Neighbors[index] + 1) % 3);
+                            int change = 1;
+						    if (Event.current.button == 1)
+								change = -1;
+							tilingRule.m_Neighbors[index] = (RuleTile.TilingRule.Neighbor) (((int)tilingRule.m_Neighbors[index] + change) % 3);
 							GUI.changed = true;
 							Event.current.Use();
 						}
@@ -276,7 +278,7 @@ namespace UnityEditor
 			{
 				GUI.Label(new Rect(rect.xMin, y, k_LabelWidth, k_SingleLineHeight), "Size");
 				EditorGUI.BeginChangeCheck();
-				int newLength = EditorGUI.IntField(new Rect(rect.xMin + k_LabelWidth, y, rect.width - k_LabelWidth, k_SingleLineHeight), tilingRule.m_Sprites.Length);
+				int newLength = EditorGUI.DelayedIntField(new Rect(rect.xMin + k_LabelWidth, y, rect.width - k_LabelWidth, k_SingleLineHeight), tilingRule.m_Sprites.Length);
 				if (EditorGUI.EndChangeCheck())
 					Array.Resize(ref tilingRule.m_Sprites, Math.Max(newLength, 1));
 				y += k_SingleLineHeight;
