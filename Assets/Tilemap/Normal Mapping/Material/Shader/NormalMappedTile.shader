@@ -1,4 +1,6 @@
-﻿Shader "Custom/NormalMappedTile" {
+﻿// Upgrade NOTE: upgraded instancing buffer 'Props' to new syntax.
+
+Shader "Custom/NormalMappedTile" {
 	Properties {
 		_Color ("Color", Color) = (1,1,1,1)
 		[PerRendererData] _MainTex ("Albedo (RGB)", 2D) = "white" {}
@@ -22,8 +24,8 @@
 
 		fixed4 _Color;
 
-		UNITY_INSTANCING_CBUFFER_START(Props)
-		UNITY_INSTANCING_CBUFFER_END
+		UNITY_INSTANCING_BUFFER_START(Props)
+		UNITY_INSTANCING_BUFFER_END(Props)
 
 		void surf (Input IN, inout SurfaceOutputStandard o) {
 			fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
