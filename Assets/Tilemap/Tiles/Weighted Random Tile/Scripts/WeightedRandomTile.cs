@@ -12,6 +12,7 @@ namespace UnityEngine.Tilemaps {
     }
 
     [Serializable]
+    [CreateAssetMenu(fileName = "New Weighted Random Tile", menuName = "Tiles/Weighted Random Tile")]
     public class WeightedRandomTile : Tile {
         [SerializeField] public WeightedSprite[] Sprites;
 
@@ -36,24 +37,12 @@ namespace UnityEngine.Tilemaps {
             var randomWeight = Random.Range(0, cumulativeWeight);
             foreach (var spriteInfo in Sprites) {
                 randomWeight -= spriteInfo.Weight;
-                if (randomWeight <= 0) {
+                if (randomWeight < 0) {
                     tileData.sprite = spriteInfo.Sprite;    
                     break;
                 }
             }
         }
-
-#if UNITY_EDITOR
-        [MenuItem("Assets/Create/Weighted Random Tile")]
-        public static void CreateRandomTile() {
-            string path = EditorUtility.SaveFilePanelInProject("Save Weighted Random Tile", "New Weighted Random Tile", "asset",
-                "Save Weighted Random Tile", "Assets");
-
-            if (path == "") return;
-
-            AssetDatabase.CreateAsset(CreateInstance<WeightedRandomTile>(), path);
-        }
-#endif
     }
 
 #if UNITY_EDITOR

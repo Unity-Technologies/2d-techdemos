@@ -8,6 +8,7 @@ using System.Linq;
 namespace UnityEditor
 {
     [CustomGridBrush(true, false, false, "Line Brush")]
+    [CreateAssetMenu(fileName = "New Line Brush", menuName = "Brushes/Line Brush")]
     public class LineBrush : GridBrush
     {
         public bool lineStartActive = false;
@@ -37,17 +38,6 @@ namespace UnityEditor
                 lineStart = position;
                 lineStartActive = true;
             }
-        }
-
-        [MenuItem("Assets/Create/Line Brush")]
-        public static void CreateBrush()
-        {
-            string path = EditorUtility.SaveFilePanelInProject("Save Line Brush", "New Line Brush", "asset", "Save Line Brush", "Assets");
-
-            if (path == "")
-                return;
-
-            AssetDatabase.CreateAsset(ScriptableObject.CreateInstance<LineBrush>(), path);
         }
 
         /// <summary>
@@ -162,6 +152,7 @@ namespace UnityEditor
     public class LineBrushEditor : GridBrushEditor
     {
         private LineBrush lineBrush { get { return target as LineBrush; } }
+        private Tilemap lastTilemap;
 
         public override void OnPaintSceneGUI(GridLayout grid, GameObject brushTarget, BoundsInt position, GridBrushBase.Tool tool, bool executing)
         {
@@ -170,7 +161,7 @@ namespace UnityEditor
             {
                 Tilemap tilemap = brushTarget.GetComponent<Tilemap>();
                 if (tilemap != null)
-                    tilemap.ClearAllEditorPreviewTiles();
+                    lastTilemap = tilemap;
 
                 // Draw preview tiles for tilemap
                 Vector2Int startPos = new Vector2Int(lineBrush.lineStart.x, lineBrush.lineStart.y);
@@ -203,6 +194,16 @@ namespace UnityEditor
                     GL.End();
                     GL.PopMatrix();
                 }
+            }
+        }
+
+        public override void ClearPreview()
+        {
+            base.ClearPreview();
+            if (lastTilemap != null)
+            {
+                lastTilemap.ClearAllEditorPreviewTiles();
+                lastTilemap = null;
             }
         }
     }
