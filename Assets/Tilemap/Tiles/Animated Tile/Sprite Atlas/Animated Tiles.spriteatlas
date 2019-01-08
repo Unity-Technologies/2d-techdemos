@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Animated Tiles
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -18,35 +20,30 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 0
-    platformSettings: []
-    packingParameters:
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
       serializedVersion: 2
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
-    packedHash:
-      serializedVersion: 2
-      Hash: 94ad2fc6a5b5c9f2b76d822425a3c216
     variantMultiplier: 1
-    bindAsDefault: 1
-    finalFormat: 4
-    hashString: 94ad2fc6a5b5c9f2b76d822425a3c216
-    totalSpriteSurfaceArea: 40960
     packables:
     - {fileID: 2800000, guid: bf541ba7810cafd43af665d35d1dc29e, type: 3}
-    packedSpriteRenderDataKeys:
-    - bf541ba7810cafd43af665d35d1dc29e: 21300014
-    - bf541ba7810cafd43af665d35d1dc29e: 21300012
-    - bf541ba7810cafd43af665d35d1dc29e: 21300010
-    - bf541ba7810cafd43af665d35d1dc29e: 21300008
-    - bf541ba7810cafd43af665d35d1dc29e: 21300006
-    - bf541ba7810cafd43af665d35d1dc29e: 21300004
-    - bf541ba7810cafd43af665d35d1dc29e: 21300002
-    - bf541ba7810cafd43af665d35d1dc29e: 21300000
-    - bf541ba7810cafd43af665d35d1dc29e: 21300018
-    - bf541ba7810cafd43af665d35d1dc29e: 21300016
+    totalSpriteSurfaceArea: 40960
+    bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300014, guid: bf541ba7810cafd43af665d35d1dc29e, type: 3}

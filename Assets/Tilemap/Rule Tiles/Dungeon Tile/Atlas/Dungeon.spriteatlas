@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Dungeon
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -18,40 +20,30 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 0
-    platformSettings: []
-    packingParameters:
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
       serializedVersion: 2
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
-    packedHash:
-      serializedVersion: 2
-      Hash: 265812e784aff561f6411e7c89a7f963
     variantMultiplier: 1
-    bindAsDefault: 1
-    finalFormat: 4
-    hashString: 265812e784aff561f6411e7c89a7f963
-    totalSpriteSurfaceArea: 3840
     packables:
     - {fileID: 2800000, guid: 5c4f1fa01d076b0448a9438531d30a91, type: 3}
-    packedSpriteRenderDataKeys:
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300060
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300054
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300052
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300058
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300056
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300044
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300046
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300040
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300042
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300036
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300038
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300032
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300034
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300048
-    - 5c4f1fa01d076b0448a9438531d30a91: 21300050
+    totalSpriteSurfaceArea: 3840
+    bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300060, guid: 5c4f1fa01d076b0448a9438531d30a91, type: 3}

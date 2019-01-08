@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Platform3
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -18,39 +20,30 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 0
-    platformSettings: []
-    packingParameters:
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
       serializedVersion: 2
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
-    packedHash:
-      serializedVersion: 2
-      Hash: bc6163684c37f933449f021dbe7ca552
     variantMultiplier: 1
-    bindAsDefault: 1
-    finalFormat: 4
-    hashString: bc6163684c37f933449f021dbe7ca552
-    totalSpriteSurfaceArea: 3584
     packables:
     - {fileID: 2800000, guid: 9dfa7bc59e7cb9142a3cb68af0656ec4, type: 3}
-    packedSpriteRenderDataKeys:
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300026
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300024
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300022
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300020
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300008
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300010
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300012
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300014
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300000
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300002
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300004
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300006
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300016
-    - 9dfa7bc59e7cb9142a3cb68af0656ec4: 21300018
+    totalSpriteSurfaceArea: 3584
+    bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300026, guid: 9dfa7bc59e7cb9142a3cb68af0656ec4, type: 3}

@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Ladder
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -18,28 +20,30 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 0
-    platformSettings: []
-    packingParameters:
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
       serializedVersion: 2
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
-    packedHash:
-      serializedVersion: 2
-      Hash: 904b82378f29a1a0b03e8211046c994a
     variantMultiplier: 1
-    bindAsDefault: 1
-    finalFormat: 4
-    hashString: 904b82378f29a1a0b03e8211046c994a
-    totalSpriteSurfaceArea: 768
     packables:
     - {fileID: 2800000, guid: c880ac2f074d0e949bbd557566f06215, type: 3}
-    packedSpriteRenderDataKeys:
-    - c880ac2f074d0e949bbd557566f06215: 21300004
-    - c880ac2f074d0e949bbd557566f06215: 21300000
-    - c880ac2f074d0e949bbd557566f06215: 21300002
+    totalSpriteSurfaceArea: 768
+    bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300004, guid: c880ac2f074d0e949bbd557566f06215, type: 3}

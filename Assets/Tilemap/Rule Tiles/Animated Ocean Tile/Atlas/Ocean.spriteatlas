@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Ocean
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -18,73 +20,30 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 0
-    platformSettings: []
-    packingParameters:
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
       serializedVersion: 2
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
-    packedHash:
-      serializedVersion: 2
-      Hash: 12eb6d71d2bbec12ed2cf1a75c1fc544
     variantMultiplier: 1
-    bindAsDefault: 1
-    finalFormat: 4
-    hashString: 12eb6d71d2bbec12ed2cf1a75c1fc544
-    totalSpriteSurfaceArea: 12288
     packables:
     - {fileID: 2800000, guid: 1dbca277352d7e7438b1f9ba168025cc, type: 3}
-    packedSpriteRenderDataKeys:
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300022
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300020
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300026
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300024
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300030
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300028
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300034
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300032
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300038
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300036
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300056
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300058
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300016
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300018
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300078
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300076
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300004
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300040
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300006
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300042
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300000
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300044
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300084
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300002
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300046
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300066
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300086
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300012
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300048
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300064
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300080
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300014
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300050
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300062
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300082
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300008
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300052
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300060
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300092
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300010
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300054
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300074
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300094
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300072
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300088
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300070
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300090
-    - 1dbca277352d7e7438b1f9ba168025cc: 21300068
+    totalSpriteSurfaceArea: 12288
+    bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300022, guid: 1dbca277352d7e7438b1f9ba168025cc, type: 3}

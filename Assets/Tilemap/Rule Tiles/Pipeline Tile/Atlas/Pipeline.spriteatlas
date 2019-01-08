@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Pipeline
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -18,31 +20,30 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 0
-    platformSettings: []
-    packingParameters:
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
       serializedVersion: 2
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
-    packedHash:
-      serializedVersion: 2
-      Hash: e295ab728ad21911a8ed34d2814e2025
     variantMultiplier: 1
-    bindAsDefault: 1
-    finalFormat: 4
-    hashString: e295ab728ad21911a8ed34d2814e2025
-    totalSpriteSurfaceArea: 1536
     packables:
     - {fileID: 2800000, guid: e10f947be2bea7448b7f050392a49bfd, type: 3}
-    packedSpriteRenderDataKeys:
-    - e10f947be2bea7448b7f050392a49bfd: 21300008
-    - e10f947be2bea7448b7f050392a49bfd: 21300010
-    - e10f947be2bea7448b7f050392a49bfd: 21300000
-    - e10f947be2bea7448b7f050392a49bfd: 21300002
-    - e10f947be2bea7448b7f050392a49bfd: 21300004
-    - e10f947be2bea7448b7f050392a49bfd: 21300006
+    totalSpriteSurfaceArea: 1536
+    bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300008, guid: e10f947be2bea7448b7f050392a49bfd, type: 3}

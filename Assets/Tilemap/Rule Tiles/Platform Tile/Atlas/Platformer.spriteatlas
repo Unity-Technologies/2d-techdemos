@@ -3,10 +3,12 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Platformer
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
       serializedVersion: 2
       anisoLevel: 1
@@ -18,32 +20,30 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 0
-    platformSettings: []
-    packingParameters:
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
       serializedVersion: 2
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
-    packedHash:
-      serializedVersion: 2
-      Hash: ef98f37fbd50dc5bc207ac6a282b0716
     variantMultiplier: 1
-    bindAsDefault: 1
-    finalFormat: 4
-    hashString: ef98f37fbd50dc5bc207ac6a282b0716
-    totalSpriteSurfaceArea: 1792
     packables:
     - {fileID: 2800000, guid: 1a29632a08213734895a58fd312fa737, type: 3}
-    packedSpriteRenderDataKeys:
-    - 1a29632a08213734895a58fd312fa737: 21300012
-    - 1a29632a08213734895a58fd312fa737: 21300010
-    - 1a29632a08213734895a58fd312fa737: 21300008
-    - 1a29632a08213734895a58fd312fa737: 21300006
-    - 1a29632a08213734895a58fd312fa737: 21300004
-    - 1a29632a08213734895a58fd312fa737: 21300002
-    - 1a29632a08213734895a58fd312fa737: 21300000
+    totalSpriteSurfaceArea: 1792
+    bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300012, guid: 1a29632a08213734895a58fd312fa737, type: 3}
