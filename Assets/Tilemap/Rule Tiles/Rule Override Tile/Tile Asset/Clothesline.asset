@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c779848d9dd029409ca676b49e10a18, type: 3}
+  m_Name: Clothesline
+  m_EditorClassIdentifier: 
+  m_Tile: {fileID: 11400000, guid: 2cd9e25e3c03b2944b9e7d806bfe5b8d, type: 2}
+  m_Advanced: 0
+  m_Sprites:
+  - m_OriginalSprite: {fileID: 21300436, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+    m_OverrideSprite: {fileID: 21300490, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+  - m_OriginalSprite: {fileID: 21300434, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+    m_OverrideSprite: {fileID: 21300488, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+  - m_OriginalSprite: {fileID: 21300438, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+    m_OverrideSprite: {fileID: 21300492, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+  - m_OriginalSprite: {fileID: 21300486, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+    m_OverrideSprite: {fileID: 21300486, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+  - m_OriginalSprite: {fileID: 21300432, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+    m_OverrideSprite: {fileID: 21300432, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+  - m_OriginalSprite: {fileID: 21300440, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+    m_OverrideSprite: {fileID: 21300440, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+  m_OverrideTilingRules:
+  - m_Enabled: 1
+    m_TilingRule:
+      m_Neighbors: 
+      m_Sprites:
+      - {fileID: 21300490, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+      m_GameObject: {fileID: 0}
+      m_AnimationSpeed: 1
+      m_PerlinScale: 0.5
+      m_RuleTransform: 0
+      m_Output: 0
+      m_ColliderType: 1
+      m_RandomTransform: 0
+  - m_Enabled: 1
+    m_TilingRule:
+      m_Neighbors: 
+      m_Sprites:
+      - {fileID: 21300488, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+      m_GameObject: {fileID: 0}
+      m_AnimationSpeed: 1
+      m_PerlinScale: 0.5
+      m_RuleTransform: 0
+      m_Output: 0
+      m_ColliderType: 1
+      m_RandomTransform: 0
+  - m_Enabled: 1
+    m_TilingRule:
+      m_Neighbors: 
+      m_Sprites:
+      - {fileID: 21300492, guid: c51d6277d6e5e86499e6eca007e73e8d, type: 3}
+      m_GameObject: {fileID: 0}
+      m_AnimationSpeed: 1
+      m_PerlinScale: 0.5
+      m_RuleTransform: 0
+      m_Output: 0
+      m_ColliderType: 1
+      m_RandomTransform: 0
+  m_OverrideDefault:
+    m_Enabled: 0
+    m_TilingRule:
+      m_Neighbors: 0000000000000000000000000000000000000000000000000000000000000000
+      m_Sprites:
+      - {fileID: 0}
+      m_GameObject: {fileID: 0}
+      m_AnimationSpeed: 1
+      m_PerlinScale: 0.5
+      m_RuleTransform: 0
+      m_Output: 0
+      m_ColliderType: 1
+      m_RandomTransform: 0
