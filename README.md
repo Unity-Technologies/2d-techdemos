@@ -25,4 +25,6 @@ As this repository contains the scripts from 2d-extras, you do not need to inclu
     - Right-click on the Tile Palette
     - Click on Select Tile Asset
 
-For use with Unity 2018.2.0f2 onwards. Please use the 2017 branch for earlier versions of Unity (up to 2017.2).
+For use with Unity 2018.3.0f2 onwards. 
+Please use the 2018.2 branch for Unity 2018.2 versions. 
+Please use the 2017 branch for earlier versions of Unity (from 2017.2 and up).
