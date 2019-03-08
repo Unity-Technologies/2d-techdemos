@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,7 +13,7 @@ MonoBehaviour:
   m_Name: Random Plant Brush
   m_EditorClassIdentifier: 
   m_Cells:
-  - m_Tile: {fileID: 0}
+  - m_Tile: {fileID: 11400000, guid: 9c1fc2d71cd19b64a931446235568edb, type: 2}
     m_Matrix:
       e00: 1
       e01: 0
@@ -33,9 +34,22 @@ MonoBehaviour:
     m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Size: {x: 1, y: 1, z: 1}
   m_Pivot: {x: 0, y: 0, z: 0}
-  randomTiles:
-  - {fileID: 11400000, guid: d8b12a476c2a84b4692adc51a60fc5b4, type: 2}
-  - {fileID: 11400000, guid: 68eea7afc1d4d57408baad8249b76e40, type: 2}
-  - {fileID: 11400000, guid: fa5af3e902a89fc4e9e1a508c4a0a5bc, type: 2}
-  - {fileID: 11400000, guid: 2748e9abf42487044b297db69bfa1d7c, type: 2}
-  - {fileID: 11400000, guid: 948a3d70b8fb4b6459ddfc83cd3d598c, type: 2}
+  randomTileSetSize: {x: 2, y: 1, z: 1}
+  randomTileSets:
+  - randomTiles:
+    - {fileID: 11400000, guid: fa5af3e902a89fc4e9e1a508c4a0a5bc, type: 2}
+    - {fileID: 11400000, guid: 6c4387abdf3db724ba8c2ab7b46719f0, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 2748e9abf42487044b297db69bfa1d7c, type: 2}
+    - {fileID: 11400000, guid: 4833fcccdc342614f9b8631e487d51b6, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 018ab1c61fb31fd4d8cb3a8405c65fee, type: 2}
+    - {fileID: 11400000, guid: 68eea7afc1d4d57408baad8249b76e40, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: 3de8c2f1a253bd746b6ea60f72936a15, type: 2}
+    - {fileID: 11400000, guid: 948a3d70b8fb4b6459ddfc83cd3d598c, type: 2}
+  - randomTiles:
+    - {fileID: 11400000, guid: e96fabaef86d1d1448a8c90694b68326, type: 2}
+    - {fileID: 11400000, guid: 39a72bc8509c04043842f2f0d00c8804, type: 2}
+  pickRandomTiles: 0
+  addToRandomTiles: 0
