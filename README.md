@@ -6,9 +6,9 @@ All items in the repository are grouped by use for a feature and are listed belo
 
 ## How to use this
 
-This repository is a Unity project which you can open using Unity. To view the examples in an existing Unity project, please copy the contents in the Assets folder to the Assets folder of your existing project.
+This repository is a Unity project which you can open using Unity. To view the examples in an existing Unity project, please copy the contents in the Assets folder to the Assets folder of your existing project as well as the manifest.json file in the Packages folder.
 
-As this repository contains the scripts from 2d-extras, you do not need to include the files from the 2d-extras repository to this.
+As this repository contains the scripts from 2d-extras as a package, you do not need to include the files from the 2d-extras repository to this.
 
 ## Features
 
@@ -25,4 +25,4 @@ As this repository contains the scripts from 2d-extras, you do not need to inclu
     - Right-click on the Tile Palette
     - Click on Select Tile Asset
 
-For use with Unity 2018.2.0f2 onwards. Please use the 2017 branch for earlier versions of Unity (up to 2017.2).
+For use with Unity 2019.2.0a7 onwards.
