@@ -1,65 +1,165 @@
 fileFormatVersion: 2
 guid: a51e743cd78e513489bb4b23cd3d13f2
-timeCreated: 1464534549
-licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: PBrick_0
-    21300002: PBrick_1
-    21300004: PBrick_2
-    21300006: PBrick_3
-    21300008: PBrick_4
-    21300010: PBrick_5
-    21300012: PBrick_6
-    21300014: PBrick_7
-    21300016: PBrick_8
-    21300018: PBrick_9
-    21300020: PBrick_10
-    21300022: PBrick_11
-    21300024: PBrick_12
-    21300026: PBrick_13
-    21300028: PBrick_14
-    21300030: TerraTiles01_15
-    21300032: TerraTiles01_16
-    21300034: TerraTiles01_17
-    21300036: TerraTiles01_18
-    21300038: TerraTiles01_19
-    21300040: TerraTiles01_20
-    21300042: TerraTiles01_21
-    21300044: TerraTiles01_22
-    21300046: TerraTiles01_23
-    21300048: TerraTiles01_24
-    21300050: TerraTiles01_25
-    21300052: TerraTiles01_26
-    21300054: TerraTiles01_27
-    21300056: Pebbles_01
-    21300058: Pebbles_02
-    21300060: Pebbles_03
-    21300062: Pebbles_04
-    21300064: Pebbles_05
-    21300066: Pebbles_06
-    21300068: Pebbles_07
-    21300070: Pebbles_08
-    21300072: Pebbles_09
-    21300074: Pebbles_10
-    21300076: Pebbles_11
-    21300078: Pebbles_12
-    21300080: Pebbles_13
-    21300082: Pebbles_14
-    21300084: Pebbles_15
-    21300086: TerraTiles01_43
-    21300088: TerraTiles01_44
-    21300090: TerraTiles01_45
-    21300092: TerraTiles01_46
-    21300094: TerraTiles01_47
-    21300096: TerraTiles01_48
-  serializedVersion: 3
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: PBrick_0
+  - first:
+      213: 21300002
+    second: PBrick_1
+  - first:
+      213: 21300004
+    second: PBrick_2
+  - first:
+      213: 21300006
+    second: PBrick_3
+  - first:
+      213: 21300008
+    second: PBrick_4
+  - first:
+      213: 21300010
+    second: PBrick_5
+  - first:
+      213: 21300012
+    second: PBrick_6
+  - first:
+      213: 21300014
+    second: PBrick_7
+  - first:
+      213: 21300016
+    second: PBrick_8
+  - first:
+      213: 21300018
+    second: PBrick_9
+  - first:
+      213: 21300020
+    second: PBrick_10
+  - first:
+      213: 21300022
+    second: PBrick_11
+  - first:
+      213: 21300024
+    second: PBrick_12
+  - first:
+      213: 21300026
+    second: PBrick_13
+  - first:
+      213: 21300028
+    second: PBrick_14
+  - first:
+      213: 21300030
+    second: TerraTiles01_15
+  - first:
+      213: 21300032
+    second: TerraTiles01_16
+  - first:
+      213: 21300034
+    second: TerraTiles01_17
+  - first:
+      213: 21300036
+    second: TerraTiles01_18
+  - first:
+      213: 21300038
+    second: TerraTiles01_19
+  - first:
+      213: 21300040
+    second: TerraTiles01_20
+  - first:
+      213: 21300042
+    second: TerraTiles01_21
+  - first:
+      213: 21300044
+    second: TerraTiles01_22
+  - first:
+      213: 21300046
+    second: TerraTiles01_23
+  - first:
+      213: 21300048
+    second: TerraTiles01_24
+  - first:
+      213: 21300050
+    second: TerraTiles01_25
+  - first:
+      213: 21300052
+    second: TerraTiles01_26
+  - first:
+      213: 21300054
+    second: TerraTiles01_27
+  - first:
+      213: 21300056
+    second: Pebbles_01
+  - first:
+      213: 21300058
+    second: Pebbles_02
+  - first:
+      213: 21300060
+    second: Pebbles_03
+  - first:
+      213: 21300062
+    second: Pebbles_04
+  - first:
+      213: 21300064
+    second: Pebbles_05
+  - first:
+      213: 21300066
+    second: Pebbles_06
+  - first:
+      213: 21300068
+    second: Pebbles_07
+  - first:
+      213: 21300070
+    second: Pebbles_08
+  - first:
+      213: 21300072
+    second: Pebbles_09
+  - first:
+      213: 21300074
+    second: Pebbles_10
+  - first:
+      213: 21300076
+    second: Pebbles_11
+  - first:
+      213: 21300078
+    second: Pebbles_12
+  - first:
+      213: 21300080
+    second: Pebbles_13
+  - first:
+      213: 21300082
+    second: Pebbles_14
+  - first:
+      213: 21300084
+    second: Pebbles_15
+  - first:
+      213: 21300086
+    second: TerraTiles01_43
+  - first:
+      213: 21300088
+    second: TerraTiles01_44
+  - first:
+      213: 21300090
+    second: TerraTiles01_45
+  - first:
+      213: 21300092
+    second: TerraTiles01_46
+  - first:
+      213: 21300094
+    second: TerraTiles01_47
+  - first:
+      213: 21300096
+    second: TerraTiles01_48
+  externalObjects: {}
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -68,35 +168,55 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  shapeTexture: 0
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -112,7 +232,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_1
       rect:
@@ -125,7 +253,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_2
       rect:
@@ -138,7 +274,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_3
       rect:
@@ -151,7 +295,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_4
       rect:
@@ -164,7 +316,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_5
       rect:
@@ -177,7 +337,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_6
       rect:
@@ -190,7 +358,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_7
       rect:
@@ -203,7 +379,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_8
       rect:
@@ -216,7 +400,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_9
       rect:
@@ -229,7 +421,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_10
       rect:
@@ -242,7 +442,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_11
       rect:
@@ -255,7 +463,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_12
       rect:
@@ -268,7 +484,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_13
       rect:
@@ -281,7 +505,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PBrick_14
       rect:
@@ -294,7 +526,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_01
       rect:
@@ -307,7 +547,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_02
       rect:
@@ -320,7 +568,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_03
       rect:
@@ -333,7 +589,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_04
       rect:
@@ -346,7 +610,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_05
       rect:
@@ -359,7 +631,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_06
       rect:
@@ -372,7 +652,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_07
       rect:
@@ -385,7 +673,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_08
       rect:
@@ -398,7 +694,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_09
       rect:
@@ -411,7 +715,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_10
       rect:
@@ -424,7 +736,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_11
       rect:
@@ -437,7 +757,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_12
       rect:
@@ -450,7 +778,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_13
       rect:
@@ -463,7 +799,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_14
       rect:
@@ -476,7 +820,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Pebbles_15
       rect:
@@ -489,9 +841,28 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
