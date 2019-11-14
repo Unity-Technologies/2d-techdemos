@@ -24,7 +24,13 @@ public class ExampleSiblingRuleTile : RuleTile
                     return other is ExampleSiblingRuleTile
                         && (other as ExampleSiblingRuleTile).sibingGroup == this.sibingGroup;
                 }
+            case TilingRule.Neighbor.NotThis:
+                {
+                    return !(other is ExampleSiblingRuleTile
+                        && (other as ExampleSiblingRuleTile).sibingGroup == this.sibingGroup);
+                }
         }
+
         return base.RuleMatch(neighbor, other);
     }
 }
