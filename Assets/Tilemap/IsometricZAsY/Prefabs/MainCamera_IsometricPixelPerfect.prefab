@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1128314445768719840}
   - component: {fileID: 8422213676754690966}
   - component: {fileID: 1343731013812197621}
+  - component: {fileID: 579170500}
   m_Layer: 0
   m_Name: MainCamera_IsometricPixelPerfect
   m_TagString: MainCamera
@@ -119,3 +120,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   followTarget: {fileID: 0}
   moveSpeed: 10
+--- !u!114 &579170500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217815823075059427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628cdf88c48134e4c9094a92ad1bb52e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
