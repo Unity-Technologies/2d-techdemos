@@ -3,7 +3,7 @@
     "com.unity.2d.pixel-perfect": "1.0.1-preview",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
-    "com.unity.2d.tilemap.extras": "https://github.com/Unity-Technologies/2d-extras.git#v1.3.1",
+    "com.unity.2d.tilemap.extras": "https://github.com/Unity-Technologies/2d-extras.git#master",
     "com.unity.ads": "2.3.1",
     "com.unity.analytics": "3.3.2",
     "com.unity.collab-proxy": "1.2.16",
@@ -46,11 +46,5 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  },
-  "lock": {
-    "com.unity.2d.tilemap.extras": {
-      "hash": "de04a1703b0fcbfc5adb9c5390a77d31a0f069ac",
-      "revision": "v1.3.1"
-    }
   }
 }
