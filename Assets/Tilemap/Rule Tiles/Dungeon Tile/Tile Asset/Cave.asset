@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Cave
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: 21300032, guid: 5c4f1fa01d076b0448a9438531d30a91, type: 3}
-  m_DefaultGameObject: {fileID: 9160593401528193886, guid: ded228c73cadcf445b1ac399f54c2a97,
-    type: 3}
+  m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 1
   m_TilingRules:
   - m_Neighbors: 01000000020000000200000002000000
