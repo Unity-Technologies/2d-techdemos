@@ -25,4 +25,4 @@ As this repository contains the scripts from 2d-extras as a package, you do not 
     - Right-click on the Tile Palette
     - Click on Select Tile Asset
 
-For use with Unity 2019.2.0a7 onwards.
+For use with Unity 2019.3.7f1 onwards.
