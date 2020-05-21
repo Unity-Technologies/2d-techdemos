@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d5751a2c961df945a34295ccf5e576d, type: 3}
-  m_Name: Example Prefab Brush
+  m_Script: {fileID: 11500000, guid: fdc5e1eccedb29e4894bbfab99032590, type: 3}
+  m_Name: Example Prefab Random Brush
   m_EditorClassIdentifier: 
   m_Cells:
   - m_Tile: {fileID: 0}
@@ -36,5 +36,8 @@ MonoBehaviour:
   m_Pivot: {x: 0, y: 0, z: 0}
   m_CanChangeZPosition: 0
   m_Anchor: {x: 0.5, y: 0.5, z: 0.5}
-  m_Prefab: {fileID: 6539335336042720808, guid: 7b5b0047c081a44ce9d89a49fa8c1d41,
-    type: 3}
+  m_Prefabs:
+  - {fileID: 6539335336042720808, guid: 7b5b0047c081a44ce9d89a49fa8c1d41, type: 3}
+  - {fileID: 6539335336042720808, guid: 2f3d555e12f4c406a9d03fc1c878f984, type: 3}
+  - {fileID: 6539335336042720808, guid: 857b47eff75fc40708b34f3d7d4346c7, type: 3}
+  m_PerlinScale: 0.5
