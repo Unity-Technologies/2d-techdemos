@@ -1,6 +1,6 @@
 # 2d-techdemos
 
-2d-techdemos is a repository containing helpful examples of 2D features with scenes and assets. It contains the asset implementions of the scripts available in its sister repository, [2d-extras](https://github.com/Unity-Technologies/2d-extras).
+2d-techdemos is a repository containing helpful examples of 2D features with scenes and assets. It contains the asset implementations of the scripts available in its sister repository, [2d-extras](https://github.com/Unity-Technologies/2d-extras).
 
 All items in the repository are grouped by use for a feature and are listed below.
 
@@ -25,4 +25,6 @@ As this repository contains the scripts from 2d-extras as a package, you do not 
     - Right-click on the Tile Palette
     - Click on Select Tile Asset
 
-For use with Unity 2019.3.7f1 onwards.
+- **Palette Swap** - A demo using Tilemap showing how Tiles in a Tilemap can be swapped between different Palette Prefabs. Open the scene Palette Swap to get started. Run this example by playing it and using the A and D keys to swap between palettes.
+	
+For use with Unity 2021.1.0f1 onwards. For prior Unity versions, the appropriate Unity Packages should be used for those versions.
