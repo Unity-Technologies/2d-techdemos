@@ -23,15 +23,15 @@
       }
     },
     "com.unity.2d.tilemap.extras": {
-      "version": "4.1.0",
+      "version": "https://github.com/Unity-Technologies/2d-extras.git#package_2023.1",
       "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
-        "com.unity.2d.tilemap": "1.0.0",
         "com.unity.modules.tilemap": "1.0.0",
+        "com.unity.2d.tilemap": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
-      "url": "https://packages.unity.com"
+      "hash": "5d4ac2ad0a5fa8ea25808ac7a07cf90783a8cfcc"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.9",
