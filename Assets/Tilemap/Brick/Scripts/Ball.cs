@@ -13,7 +13,7 @@ public class Ball : MonoBehaviour
     void Start()
     {
         var rb = GetComponent<Rigidbody2D>();
-        rb.velocity = initialVelocity.x * UnityEngine.Random.Range(-1f, 1f) * Vector3.right + initialVelocity.y * Vector3.down;
+        rb.linearVelocity = initialVelocity.x * UnityEngine.Random.Range(-1f, 1f) * Vector3.right + initialVelocity.y * Vector3.down;
         if (tilemapGameObject != null)
         {
             tilemap = tilemapGameObject.GetComponent<Tilemap>();

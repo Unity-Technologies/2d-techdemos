@@ -21,7 +21,7 @@ SpriteAtlas:
       crunchedCompression: 0
       sRGB: 0
     platformSettings:
-    - serializedVersion: 3
+    - serializedVersion: 4
       m_BuildTarget: DefaultTexturePlatform
       m_MaxTextureSize: 2048
       m_ResizeAlgorithm: 0
@@ -31,6 +31,7 @@ SpriteAtlas:
       m_CrunchedCompression: 0
       m_AllowsAlphaSplitting: 0
       m_Overridden: 0
+      m_IgnorePlatformSupport: 0
       m_AndroidETC2FallbackOverride: 0
       m_ForceMaximumCompressionQuality_BC6H_BC7: 1
     packingSettings:
@@ -40,11 +41,63 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: 1dbca277352d7e7438b1f9ba168025cc, type: 3}
-    totalSpriteSurfaceArea: 12288
     bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300022
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300020
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300026
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300024
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300030
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300028
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300034
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300032
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300038
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300036
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300056
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300058
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300016
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300018
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300078
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300076
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300004
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300040
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300006
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300042
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300000
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300044
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300084
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300002
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300046
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300066
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300086
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300012
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300048
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300064
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300080
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300014
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300050
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300062
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300082
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300008
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300052
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300060
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300092
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300010
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300054
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300074
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300094
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300072
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300088
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300070
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300090
+    - 1dbca277352d7e7438b1f9ba168025cc: 21300068
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300022, guid: 1dbca277352d7e7438b1f9ba168025cc, type: 3}
@@ -144,5 +197,6 @@ SpriteAtlas:
   - ocean_35
   - ocean_45
   - ocean_34
+  m_RenderDataMap: {}
   m_Tag: Ocean
   m_IsVariant: 0

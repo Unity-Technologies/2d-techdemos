@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
 
 [RequireComponent(typeof(Tilemap))]
@@ -11,21 +12,28 @@ public class TilePaletteSwap : MonoBehaviour
     public int m_ActiveTilePaletteIdx = 0;
     public List<GameObject> m_TilePalettes = new List<GameObject>();
 
+    private InputAction m_PreviousAction;
+    private InputAction m_NextAction;
+    private InputAction m_Random;
+    
     // Start is called before the first frame update
     void Start()
     {
         m_Tilemap = GetComponent<Tilemap>();
+        m_PreviousAction = InputSystem.actions.FindAction("Previous");
+        m_NextAction = InputSystem.actions.FindAction("Next");
+        m_Random = InputSystem.actions.FindAction("Jump");
     }
 
     // Update is called once per frame
     void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
+    { 
+        if (m_PreviousAction.triggered)
             SwapPalette(m_ActiveTilePaletteIdx - 1);
-        if (Input.GetKeyDown(KeyCode.S))
-            SwapPalette(Random.Range(0, m_TilePalettes.Count));
-        if (Input.GetKeyDown(KeyCode.D))
+        if (m_NextAction.triggered)
             SwapPalette(m_ActiveTilePaletteIdx + 1);
+        if (m_Random.triggered)
+            SwapPalette(Random.Range(0, m_TilePalettes.Count));
     }
 
     /// <summary>
